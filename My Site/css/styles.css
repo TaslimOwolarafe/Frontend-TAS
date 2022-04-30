@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  /* font-family: verdana, sans-serif; */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /* margin-top: 50px; */
+  /* width: 10%;
+  margin: 0 auto 0 auto; */
+  /* 1em = 100% = 16px */
+  /* rem is to relate to 16px and is recommended */
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  /* line-height: 2; */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+  /* background-repeat: repeat; */
+}
+/* E4F9F5 */
+/* C3E5AE */
+.mid-container {
+  background-color: #40514E;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 50px 0 0;
+  padding: 50px 0 20px;
+}
+
+/* .bottom-container p {
+  margin: 60px 0 0 0;
+  color: white;
+} */
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: relative;
+  left: 200px;
+  bottom: 5px;
+}
+
+.Gif {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Gif2 {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .cleared1 {
+  clear: left;
+}
+.cleared2 {
+  clear: right;
+} */
+/* clear to prevent a class from being floated */
+
+.skill-row {
+  width: 50%;
+  /* position: relative; */
+  /* left: 25%; */
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+ .skill-row p {
+  line-height: 2;
+}
+
+hr {
+  width: 2%;
+  border: 6px grey dotted;
+  border-bottom: 0;
+  margin: 100px auto;
+}
+
+.btn {
+  border: 2px solid;
+  background-color: #11999E;
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  font-family: 'Arial';
+  text-decoration: none;
+}
+/* .bottom-container a {
+  margin: 10px 20px;
+  position: relative;
+  top: 40px;
+  font-family: cursive;
+} */
+
+.contact-me p {
+  margin-bottom: 30px;
+}
+.profile img {
+  margin-top: 30px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #11999E;
+  font-family: cursive;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: white;
+  padding: 20px 0;
+}
+
+a {
+
+}
